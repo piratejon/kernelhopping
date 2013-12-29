@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>The Linux Kernel Archives</title>
+        <meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="./theme/images/logos/favicon.png" />
+        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+                <link href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Linux Kernel Archives Atom Feed" />
+                
+        <link href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate" title="Latest Linux Kernel Releases" />
+
+        <!--[if IE]>
+                <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+	        <div id="tux-gear"></div>
+                <h1><a href="./">The Linux Kernel Archives </a></h1>
+                <nav><ul>
+                                                                                                    <li ><a href="./category/about.html">About</a></li>
+                                    <li ><a href="./category/contact-us.html">Contact us</a></li>
+                                    <li ><a href="./category/faq.html">FAQ</a></li>
+                                    <li ><a href="./category/releases.html">Releases</a></li>
+                                    <li ><a href="./category/signatures.html">Signatures</a></li>
+                                    <li ><a href="./category/site-news.html">Site news</a></li>
+                                </ul></nav>
+        </header><!-- /#banner -->
+                
+    <aside id="featured" class="body">
+    <article>
+        <table id="protocols">
+        <tr>
+          <th>Protocol</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td><a href="http://www.ietf.org/rfc/rfc2616.txt">HTTP</a></td>
+          <td><a href="https://www.kernel.org/pub/">https://www.kernel.org/pub/</a></td>
+        </tr>
+
+        <tr>
+          <td><a href="http://www.ietf.org/rfc/rfc959.txt">FTP</a></td>
+          <td><a href="ftp://ftp.kernel.org/pub/">ftp://ftp.kernel.org/pub/</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="http://rsync.samba.org/">RSYNC</a></td>
+            <td>rsync://rsync.kernel.org/pub/</td>
+        </tr>
+        </table>
+
+        <table id="latest">
+        <tr>
+            <td colspan="2" id="latest_label">
+                <strong>Latest Stable Kernel:</strong>
+            </td>
+        </tr>
+        <tr>
+            <td id="latest_button">
+                <a href="./pub/linux/kernel/v3.x/linux-3.12.6.tar.xz"><img src="./theme/images/icons/downloadarrow_small.png" width="48" height="48" border="0" alt="Download"/></a>
+            </td>
+            <td id="latest_link">
+                <a href="./pub/linux/kernel/v3.x/linux-3.12.6.tar.xz">3.12.6</a>
+            </td>
+        </tr>
+        </table>
+
+        <table id="releases">
+                <tr align="left">
+            <td>mainline:</td>
+            <td><strong>3.13-rc4</strong></td>
+            <td>2013-12-15</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/testing/linux-3.13-rc4.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/testing/linux-3.13-rc4.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/testing/patch-3.13-rc4.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/testing/patch-3.13-rc4.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td> </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?id=refs/tags/v3.13-rc4" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td></td>
+        </tr>
+                <tr align="left">
+            <td>stable:</td>
+            <td><strong>3.12.6</strong></td>
+            <td>2013-12-20</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.12.6.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.12.6.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.12.6.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.12.6.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.12.5-6.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.12.6" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.12.6" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>stable:</td>
+            <td><strong>3.11.10 <span class="eolkernel" title="This release is End-of-Life">[EOL]</span></strong></td>
+            <td>2013-11-29</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.11.10.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.11.10.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.11.10.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.11.10.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.11.9-10.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.11.10" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.11.10" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>3.10.25</strong></td>
+            <td>2013-12-20</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.10.25.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.10.25.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.10.25.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.10.25.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.10.24-25.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.10.25" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.10.25" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>3.4.75</strong></td>
+            <td>2013-12-20</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.4.75.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.4.75.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.4.75.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.4.75.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.4.74-75.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.4.75" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.4.75" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>3.2.53</strong></td>
+            <td>2013-11-28</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.2.53.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.2.53.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.2.53.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.2.53.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.2.52-53.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.2.53" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.2.53" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>3.0.101 <span class="eolkernel" title="This release is End-of-Life">[EOL]</span></strong></td>
+            <td>2013-10-22</td>
+            <td>[<a href="./pub/linux/kernel/v3.x/linux-3.0.101.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v3.x/linux-3.0.101.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/patch-3.0.101.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/patch-3.0.101.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v3.x/incr/patch-3.0.100-101.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v3.0.101" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v3.x/ChangeLog-3.0.101" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>2.6.34.14</strong></td>
+            <td>2013-01-16</td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.34/linux-2.6.34.14.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.34/linux-2.6.34.14.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.34/patch-2.6.34.14.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v2.6/longterm/v2.6.34/patch-2.6.34.14.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v2.6/longterm/v2.6.34/incr/patch-2.6.34.13-14.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v2.6.34.14" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.34/ChangeLog-2.6.34.14" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>longterm:</td>
+            <td><strong>2.6.32.61</strong></td>
+            <td>2013-06-10</td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.32/linux-2.6.32.61.tar.xz" title="Download complete tarball">tar.xz</a>]</td>
+	    <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.32/linux-2.6.32.61.tar.sign" title="Download PGP verification signature">pgp</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.32/patch-2.6.32.61.xz" title="Download patch to previous mainline">patch</a>]</td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v2.6/longterm/v2.6.32/patch-2.6.32.61.xz" title="View patch to previous mainline using diffview">view&nbsp;patch</a>] </td>
+            <td>[<a href="https://www.kernel.org/diff/diffview.cgi?file=/pub/linux/kernel/v2.6/longterm/v2.6.32/incr/patch-2.6.32.60-61.xz" title="View incremental patch to previous stable release">view&nbsp;inc</a>] </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs/tags/v2.6.32.61" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td>[<a href="./pub/linux/kernel/v2.6/longterm/v2.6.32/ChangeLog-2.6.32.61" title="View detailed change logs">changelog</a>]</td>
+        </tr>
+                <tr align="left">
+            <td>linux-next:</td>
+            <td><strong>next-20131220</strong></td>
+            <td>2013-12-20</td>
+            <td></td>
+	    <td></td>
+            <td></td>
+            <td> </td>
+            <td> </td>
+            <td>[<a href="https://git.kernel.org/cgit/linux/kernel/git/next/linux-next.git/log/?id=refs/tags/next-20131220" title="Browse the git tree using the web interface">cgit</a>] </td>
+            <td></td>
+        </tr>
+                </table>
+    </article>
+</aside>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>Other resources</h2>
+                        <ul>
+                                                    <li><a href="https://git.kernel.org/">Cgit</a></li>
+                                                    <li><a href="https://www.wiki.kernel.org/">Wikis</a></li>
+                                                    <li><a href="https://bugzilla.kernel.org/">Bugzilla</a></li>
+                                                    <li><a href="https://patchwork.kernel.org/">Patchwork</a></li>
+                                                    <li><a href="http://vger.kernel.org/">Kernel Mailing Lists</a></li>
+                                                    <li><a href="http://mirrors.kernel.org/">Mirrors</a></li>
+                                                    <li><a href="http://www.linux.com/">Linux.com</a></li>
+                                                    <li><a href="http://www.linuxfoundation.org/">Linux Foundation</a></li>
+                                                    <li><a href="http://planet.kernel.org/">Kernel Planet</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="https://www.kernel.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">Site Atom feed</a></li>
+                                                        <li><a href="https://www.kernel.org/feeds/kdist.xml" type="application/atom+xml" rel="alternate">Releases Atom Feed</a></li>
+
+                                                    <li><a href="https://plus.google.com/+Linux/posts">Linux on Google+</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                    This site is operated by the Linux Kernel Organization, Inc., a <a href="./nonprofit.html">501(c)3 nonprofit corporation</a>, with support from the following sponsors.
+                </address><!-- /#about -->
+
+                <address id="donors">
+                    <a href="http://www.linuxfoundation.org/"><img src="./theme/images/logos/lflogo-med.png"
+                  alt="The Linux Foundation" width="108" height="33" /></a>
+                  &nbsp;
+                  <a href="http://www.isc.org/"><img src="./theme/images/logos/hostedatisc.png"
+                  width="84" height="41" alt="Internet Systems Consortium" /></a>
+                  &nbsp;
+                  <a href="http://redhat.com/"><img src="./theme/images/logos/redhat-logo.png"
+                  alt="Red Hat" height="36" width="108" /></a>
+                  &nbsp;
+                  <a href="http://www.hp.com/"><img src="./theme/images/logos/hplogo.png"
+                  alt="HP" width="56" height="56" /></a>
+                  &nbsp;
+                  <a href="http://vexxhost.com/"><img src="./theme/images/logos/vexxhost.png"
+                  width="167" height="36" alt="vexxhost.com" /></a>
+                  &nbsp;
+                  <a href="http://www.osuosl.org/"><img src="./theme/images/logos/osl.png"
+                  width="88" height="31" alt="Open Source Lab" /></a>
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

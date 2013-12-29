@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source sourceme_set_kernel_folder_variable.sh
+cd ${KERNEL_FOLDER}
+
+make
+
