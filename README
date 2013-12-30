@@ -1,0 +1,6 @@
+Here is the idea:
+# git clone
+# ./do_kernel_hopping
+
+When finished this will download the latest kernel and compile and install it and then reboot and then check once a day for new kernels and download, compile, install, reboot, etc.
+
